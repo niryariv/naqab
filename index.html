@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Waypoints Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.awesome-markers/dist/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        html, body, #map {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .popup-images {
+            display: flex;
+            overflow-x: auto;
+        }
+        .popup-images img {
+            max-width: 100px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.awesome-markers/dist/leaflet.awesome-markers.min.js"></script>
+    <script src="https://unpkg.com/leaflet-providers"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([31.266, 34.971], 13);
+
+        // Define base layers
+        var baseLayers = {
+            "OpenStreetMap": L.tileLayer.provider('OpenStreetMap.Mapnik'),
+            "Esri Satellite": L.tileLayer.provider('Esri.WorldImagery')
+        };
+
+        // Add OpenStreetMap tiles as default
+        baseLayers["OpenStreetMap"].addTo(map);
+
+        // Add layer control to the map
+        L.control.layers(baseLayers).addTo(map);
+
+        // Define custom icons based on keywords using FontAwesome
+        var icons = {
+            "Shop": L.AwesomeMarkers.icon({ icon: 'fa-shopping-bag', markerColor: 'green', prefix: 'fa' }),
+            "Mosque": L.AwesomeMarkers.icon({ icon: 'fa-mosque', markerColor: 'blue', prefix: 'fa' }),
+            "Landscape view": L.AwesomeMarkers.icon({ icon: 'fa-eye', markerColor: 'orange', prefix: 'fa' }),
+            "Cemetery": L.AwesomeMarkers.icon({ icon: 'fa-monument', markerColor: 'black', prefix: 'fa' }),
+            "Entrance": L.AwesomeMarkers.icon({ icon: 'fa-sign-in-alt', markerColor: 'purple', prefix: 'fa' }),
+            "School": L.AwesomeMarkers.icon({ icon: 'fa-school', markerColor: 'red', prefix: 'fa' }),
+            "Kindergarten": L.AwesomeMarkers.icon({ icon: 'fa-school', markerColor: 'red', prefix: 'fa' }),
+            "Playing field": L.AwesomeMarkers.icon({ icon: 'fa-futbol', markerColor: 'red', prefix: 'fa' }),
+            "Shiq": L.AwesomeMarkers.icon({ icon: 'fa-home', markerColor: 'cadetblue', prefix: 'fa' }),
+            "Well": L.AwesomeMarkers.icon({ icon: 'fa-water', markerColor: 'darkblue', prefix: 'fa' }),
+            "Stream": L.AwesomeMarkers.icon({ icon: 'fa-water', markerColor: 'darkblue', prefix: 'fa' }),
+            "Hill": L.AwesomeMarkers.icon({ icon: 'fa-mountain', markerColor: 'darkblue', prefix: 'fa' }),
+            "Ruins": L.AwesomeMarkers.icon({ icon: 'fa-landmark', markerColor: 'darkred', prefix: 'fa' }),
+            "Cave": L.AwesomeMarkers.icon({ icon: 'fa-landmark', markerColor: 'darkred', prefix: 'fa' }),
+            "Village": L.AwesomeMarkers.icon({ icon: 'fa-globe', markerColor: 'darkgreen', prefix: 'fa' }),
+            "Baika": L.AwesomeMarkers.icon({ icon: 'fa-archway', markerColor: 'lightblue', prefix: 'fa' }),
+            "Borders": L.AwesomeMarkers.icon({ icon: 'fa-road', markerColor: 'gray', prefix: 'fa' })
+        };
+
+        // Load GeoJSON data from an external file
+        fetch('./waypoints.geojson')
+            .then(response => response.json())
+            .then(geojsonData => {
+                // Add GeoJSON layer to the map
+                L.geoJSON(geojsonData, {
+                    pointToLayer: function (feature, latlng) {
+                        var keyword = feature.properties.keywords;
+                        var icon = icons[keyword] || L.AwesomeMarkers.icon({ icon: 'fa-map-marker-alt', markerColor: 'gray', prefix: 'fa' });
+                        return L.marker(latlng, { icon: icon });
+                    },
+                    onEachFeature: function (feature, layer) {
+                        var properties = feature.properties;
+                        var popupContent = "<strong>" + properties.name + "</strong><br>" +
+                                           properties.desc + "<br><br>" +
+                                           "<i>" + properties.keywords + "</i><br>";
+
+                        if (properties.links && properties.links.length > 0) {
+                            popupContent += "<div class='popup-images'>";
+                            properties.links.forEach(function(link) {
+                                popupContent += "<img src='" + link.href + "' alt=''>";
+                            });
+                            popupContent += "</div>";
+                        }
+
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(map);
+            })
+            .catch(error => console.error('Error loading GeoJSON:', error));
+    </script>
+</body>
+</html>

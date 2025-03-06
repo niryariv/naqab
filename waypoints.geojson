@@ -1,0 +1,851 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Saawa Enterance",
+          "desc": "The northern entrance to Al-Naqea Valley from Saawa village.",
+          "time": "2024-02-17T07:27:57Z",
+          "keywords": "Entrance",
+          "links": [
+            {
+              "href": "pictures/first-trip/picture1.jpg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.97182261606955,
+            31.266276809163394,
+            441.17102998588234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Sawa's Landscape",
+          "desc": "This point marks a site for catching a beautiful view on the agricultural identity of Saawa.",
+          "time": "2024-02-17T07:29:08Z",
+          "keywords": "Landscape view",
+          "links": [
+            {
+              "href": "pictures/first-trip/picture1.jpg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.971302076821615,
+            31.260339411433634,
+            438.884357589297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-Atrash schools junction",
+          "desc": "The end of the road of the recognized Bedouin village Saawa and the beginning of the field of the unrecognized villages of Al-Naqea Valley. This is also where most of the schools on the northern side of Al-Naqea are concentrated.",
+          "time": "2024-02-17T07:31:05Z",
+          "keywords": "School",
+          "links": [
+            {
+              "href": "pictures/first-trip/picture1.jpg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.962812470463135,
+            31.254624045745487,
+            414.00443260744214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Saawa Shop",
+          "desc": "Small supermarket",
+          "time": "2024-02-17T07:31:13Z",
+          "keywords": "Shop",
+          "links": [
+            {
+              "href": "pictures/first-trip/picture1.jpg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.96286734524373,
+            31.254457462629986,
+            413.92059361655265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-Mithaq Mosque and Library",
+          "desc": "On the Junct`ion turning from the main road of Al-Naqea valley into the area if Al-Gharra village, there is a Mosque and a Liberary in it's entrance.",
+          "time": "2024-02-17T07:32:15Z",
+          "keywords": "Mosque and Library",
+          "links": [
+            {
+              "href": "pictures/first-trip/picture1.jpg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.96159129397762,
+            31.253056527801483,
+            418.9678073376417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-Amur family",
+          "desc": "The Shiq of Al-Amur family in Bir-Almshash village northern Nevatim Military Base.  ",
+          "time": "2024-02-17T07:49:02Z",
+          "keywords": "Shiq",
+          "links": [
+            {
+              "href": "pictures/170224/DSC02586.JPG"
+            },
+            {
+              "href": "pictures/170224/C0779.MP4"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.976400146182755,
+            31.235350612146707,
+            445.1249342318624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "BirAlhamamCemetry",
+          "desc": "Old cemetry of birAlhamam village. The cemetry is almost unseen, the graves are marked with little stones. The cemetry need rehabilitation and a fence to show it's borders. The cemetry Marks the borders between Al-nAqea Area and Nevatim settlement.",
+          "time": "2024-03-09T07:34:55Z",
+          "keywords": "Cemetery",
+          "links": [
+            {
+              "href": "pictures/090324/DSC03309.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.90730202760073,
+            31.218498065165445,
+            327.79458236694336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "BirAlhamam Village West side",
+          "desc": "Western side of BirAlhamam's Village",
+          "time": "2024-03-09T07:34:55Z",
+          "keywords": "Village",
+          "links": [
+            {
+              "href": "pictures/090324/DSC03304.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.90730202760073,
+            31.218498065165445,
+            327.79458236694336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Wadi Ghwuiena",
+          "desc": "A stream that branches off from the Be'er Sheva stream, passes through the upper part of the village of  Al-zarnuq, and continues northward through the villages of Bir al-Hamam, Al-ghara, Al-ruis, and Sawa",
+          "time": "2024-03-09T07:34:55Z",
+          "keywords": "Stream",
+          "links": [
+            {
+              "href": "pictures/090324/DSC03304.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.95948,
+            31.247841,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Bir Almshash shop",
+          "desc": "A special site of a shop and a power turbina",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Shop",
+          "links": [
+            {
+              "href": "pictures/030224/Bir al mshash/photos/DSC02668.JPG"
+            },
+            {
+              "href": "pictures/030224/Bir al mshash/photos/DSC02670.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.952141,
+            31.192663,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-ara mosque",
+          "desc": "A special site of a shop and a power turbina",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Mosque",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02633.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02630.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.974562,
+            31.233393,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-ghara Hill",
+          "desc": "At the summit of the hill, from which the village takes its name, stands a striking white prominence overlooking much of the valley. Known as Al-Ghara Hill, it shapes a distinct landscape on the northeast side of the village and provides a prominent landmark for orientation.",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Hill",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02577.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02575.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02580.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02586.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.978202,
+            31.235762,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-ara caves",
+          "desc": "The northern entrance to Al-Naqea Valley from Saawa village.",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Cave",
+          "links": [
+            {
+              "href": "pictures/170224/DSC02608.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02611.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02612.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02614.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02620.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02616.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.977157,
+            31.2348,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-ara Baika",
+          "desc": "An old house seen from the rectangular left over pile of stone and refers to the Islamic period",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Baika",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02649.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02647.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.97833,
+            31.229407,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Borders between Huwashleh and Btehat Families",
+          "desc": "A borders symbolyzied by a road that differs the lands of the families from each other",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Borders",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02648.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.976345,
+            31.224426,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "First cincrete demolished house 1978",
+          "desc": "One of the first concrete house ever demolished in the village remains etched in the memories of its residents. Meigel, a prominent figure in the council of unrecognized Bedouin villages and a member of the Al-Ghara community, is now approaching 60 years old. He vividly recalls the day when, on his way back from school, he witnessed the demolition. He describes the scene as an unforgettable and deeply painful moment in the history of the Beer Al-Saba'a Valley.",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Ruins",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02652.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02653.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02655.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.973786,
+            31.218762,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Turfah Well",
+          "desc": "A well named after a girl named Turfah that got stock in it for few days until one man dared to get her out and eventually married her",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Well",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02657.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02660.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02658.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.96978,
+            31.213372,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-ghara and Bir-Elmshash cemetery",
+          "desc": "The Concrete Block Cemetery, renovated through the collective efforts of the villages' inhabitants and maintained by them to this day, stands as a poignant tribute. Amidst the landscape of concrete ruins symbolizing the demolished 'dead' houses, the sight of the cemetery, adorned with concrete blocks marking the graves of beloved family members from the Beer Sheba Valley, is a profoundly moving experience for any visitor. ",
+          "time": "2024-02-05T13:45:57Z",
+          "keywords": "Well",
+          "links": [
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02662.JPG"
+            },
+            {
+              "href": "pictures/030224/Alaraa/photos/DSC02664.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.96852,
+            31.211429,
+            116.82948160264641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Shiq Al-Nabari in Al-ruis Village",
+          "desc": "The Shiq Al-Nabari in Al-Ruis Village serves as the primary site for hosting visitors and acquainting them with the village. Residents recount numerous significant meetings held in this space, aimed at gaining recognition for the village. However, they view the events of May 2021, when people protested against forced forestation, as a disturbance that disrupted the progress they had worked hard to achieve. ",
+          "time": "2024-02-17T10:00:49Z",
+          "keywords": "Shiq",
+          "links": [
+            {
+              "href": "pictures/170224/DSC02633.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02647.JPG"
+            },
+            {
+              "href": "pictures/170224/DSC02643.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.93855079443963,
+            31.242732285209623,
+            386.8290253467858
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Shiq Abu Mamar Al-Mshash",
+          "desc": "Shiq of Abu Mammar family at Bir Al-Mshash Village on the Western edge of Nevatim lilitary base.  ",
+          "time": "2024-02-17T08:34:44Z",
+          "keywords": "Shiq",
+          "links": [
+            {
+              "href": "pictures"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.97814263503524,
+            31.207357472959306,
+            375.23240943532437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Shiq Meegel",
+          "desc": "Shiq Meegel in Al-Gharaa village",
+          "time": "2024-05-14T09:04:45Z",
+          "keywords": "Shiq",
+          "links": [
+            {
+              "href": "pictures/140524/Shiq Meegel/DSC04216.JPG"
+            },
+            {
+              "href": "pictures/140524/Shiq Meegel/DSC04227.JPG"
+            },
+            {
+              "href": "pictures/140524/Shiq Meegel/DSC04228.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.01703212040944,
+            31.244749557255993,
+            455.3922996520996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Demolition of Wadi al-khalil village",
+          "desc": "The Israeli authorities’ demolition on 8 May 2024 of 47 homes in Wadi al-Khalil, an unrecognized Palestinian/Bedouin village in the Negev/Naqab, without proper consultation or compensation underscores the urgency to dismantle Israel’s apartheid system, said Amnesty International today.\n\nThe demolition orders against the Abu Assa neighbourhood in Wadi al-Khalil were issued by Israeli planning authorities in 2019 to make way for the extension of the route of Highway 6 southwards. The demolitions, the highest in a single day since the demolitions of Al-Araqib in 2010, amount to the forced eviction of over 300 residents of Wadi al-Khalil, one of nine unrecognized villages at risk of forced eviction under the guise of urban development. ",
+          "time": "2024-05-14T07:53:25Z",
+          "keywords": "Demolition",
+          "links": [
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03883.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03884.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03885.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03886.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03887.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03888.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03889.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03890.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03891.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03892.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03893.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03894.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03895.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03896.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03930.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03929.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03928.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03927.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03926.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03925.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03924.JPG"
+            },
+            {
+              "href": "pictures/Demolition Wadi al-khalil/photos/DSC03923.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.88934095020861,
+            31.2956391088956,
+            338.1509666442871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tal al-Malah Mosque",
+          "desc": " Tal al-Malah Mosque is a religious landmark of great significance to the former residents of the village of Tal al-Malah. Located in the Naqea (Beer Sheba Valley), Tal al-Malah was an integral part of the geographical and social fabric of the area before its inhabitants were displaced. The residents were forced to leave after the establishment of the Nevatim military base on the village's land, leading to the village's incorporation within the base's boundaries. Today, the northern Naqea area, specifically the regions adjacent to the Nevatim base, is where most families who used to live in Tal al-Malah gather. These residents come to pray at the Tal al-Milh Mosque, which remains a symbol of their heritage and a part of their cultural and religious identity.\n",
+          "time": "2024-05-14T09:26:44Z",
+          "keywords": "Mosque",
+          "links": [
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04176.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04178.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04185.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04186.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04187.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04188.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04189.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04191.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04194.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/DSC04195.JPG"
+            },
+            {
+              "href": "pictures/140524/Mosque Tal Al-malah/WhatsApp Image 2024-05-14 at 13.18.31.jpeg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.009316961542204,
+            31.23384235517628,
+            433.94833347946405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-amal (hope) Kindergarten",
+          "desc": " Al-amal (hope) Kindergarten belongs to the village of Tal al-malah.The village's lands were confiscated in 1980 for the establishment of the Nevatim military base. The kindergarten is now closed and is situated near the Tal al-Malah Mosque.\n",
+          "time": "2024-05-14T09:26:44Z",
+          "keywords": "Kindergarten",
+          "links": [
+            {
+              "href": "pictures/140524/Al-Amal Kindergarten/DSC04182.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-Amal Kindergarten/DSC04181.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.009316961542204,
+            31.23384235517628,
+            433.94833347946405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tel al-Milh soccer field",
+          "desc": "An open soccer field marked by two soccer goals framing the landscape",
+          "time": "2024-05-14T09:39:09Z",
+          "keywords": "Playing field",
+          "links": [
+            {
+              "href": "pictures/140524/Soccer field/DSC04203.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.00401942750079,
+            31.22649815252676,
+            406.0931950425729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-bat village",
+          "desc": "Meeting with Sheikh Ali Abu-Khalil from Al-sarayaa family in his Shiq.",
+          "time": "2024-05-14T09:04:45Z",
+          "keywords": "Village",
+          "links": [
+            {
+              "href": "pictures/140524/Al-bat village/DSC04161.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-bat village/DSC04162.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-bat village/DSC04166.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-bat village/DSC04167.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-bat village/DSC04169.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.01703212040944,
+            31.244749557255993,
+            455.3922996520996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Shiq Abu Asaa Family",
+          "desc": "Shiq Khalil Abu-asaa from Bir-Alhamam village. Abu Assa is one of the families in the village of Bir al-Hamam in its western neighborhood. The Abu Assa families were known for agriculture, so even during the military rule when many moved north in search of livelihoods, Abu Assa families would return to their lands in the summer for land preparation and harvesting. The Abu Assa family was among the first to build a school and mud houses before the destruction of Beer Sheva. During the military rule, those who remained in the village and continued their education in the school witnessed the arrival of an Arabic teacher from the north who came every day on his bicycle from the city of Beer Sheva.",
+          "time": "2024-05-14T11:37:30Z",
+          "keywords": "Shiq",
+          "links": [
+            {
+              "href": "pictures/140524/Shiq Abu Asaa/DSC04249.JPG"
+            },
+            {
+              "href": "pictures/140524/Shiq Abu Asaa/WhatsApp Image 2024-05-14 at 15.25.37.jpeg"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.91294461284242,
+            31.234669457606355,
+            350.1770468009636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "The Al-Mithaq Mosque",
+          "desc": "The Al-Mithaq Mosque is located in the north of Naqab Al-Sab'a, at the intersection that leads to the mountains of the Al-Ghraa village, preceded by the Al-Mithaq Mosque.",
+          "time": "2024-05-14T11:07:50Z",
+          "keywords": "Mosque",
+          "links": [
+            {
+              "href": "pictures/140524/Al-Mithaq Mosque/DSC04238.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-Mithaq Mosque/DSC04236.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.957098,
+            31.250177,
+            402.2363248700276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "The Al-Mithaq Library",
+          "desc": "The Al-Mithaq Library is located in the north of Naqab Al-Sab'a, at the intersection that leads to the mountains of the Al-Ghraa village, followed by the Al-Mithaq Mosque.",
+          "time": "2024-05-14T11:07:50Z",
+          "keywords": "Mosque",
+          "links": [
+            {
+              "href": "pictures/140524/Al-Mithaq Mosque/DSC04238.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-Mithaq Mosque/DSC04237.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.956938,
+            31.250415,
+            402.2363248700276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al-nabari Cemetery",
+          "desc": "14 May 2024 at 14:21:54",
+          "time": "2024-05-14T11:21:54Z",
+          "keywords": "Cemetery",
+          "links": [
+            {
+              "href": "pictures/140524/Al-nabari Cemetery/DSC04240.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-nabari Cemetery/DSC04241.JPG"
+            },
+            {
+              "href": "pictures/140524/Al-nabari Cemetery/DSC04242.JPG"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            34.93706780145249,
+            31.232936113826394,
+            368.12278349418193
+          ]
+        }
+      }
+    ]
+  }
