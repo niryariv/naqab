@@ -57,6 +57,7 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.awesome-markers/dist/leaflet.awesome-markers.min.js"></script>
     <script src="https://unpkg.com/leaflet-providers"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script>
         // Function to get URL parameter
         function getUrlParameter(name) {
@@ -108,39 +109,43 @@
             "Borders": L.AwesomeMarkers.icon({ icon: 'fa-road', markerColor: 'gray', prefix: 'fa' })
         };
 
-        // Load GeoJSON data from an external file
-        fetch('./waypoints.geojson')
-            .then(response => response.json())
-            .then(geojsonData => {
-                // Add GeoJSON layer to the map
-                L.geoJSON(geojsonData, {
-                    pointToLayer: function (feature, latlng) {
-                        var keyword = feature.properties['keywords_en'];
-                        var icon = icons[keyword] || L.AwesomeMarkers.icon({ icon: 'fa-map-marker-alt', markerColor: 'gray', prefix: 'fa' });
-                        return L.marker(latlng, { icon: icon });
-                    },
-                    onEachFeature: function (feature, layer) {
-                        var properties = feature.properties;
-                        var direction = (lang === 'he' || lang === 'ar') ? 'rtl' : 'ltr';
-                        var textAlign = (lang === 'he' || lang === 'ar') ? 'right' : 'left';
-                        var popupContent = "<div style='direction: " + direction + "; text-align: " + textAlign + ";'><strong>" + properties['name_' + lang] + "</strong><br>" +
-                                           properties['desc_' + lang] + "<br><br>" +
-                                           "<i>" + properties['keywords_' + lang] + "</i><br>";
+        // Load CSV data from Google Sheets using PapaParse
+        Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSZgq0vu-cbcP_4djtu25zQtZci6SB9DDbrBXG5OJbpK0s_qvrPtOM-4W892JLldlOVuv-vEiwVtQF8/pub?gid=427131504&single=true&output=csv', {
+            download: true,
+            header: true,
+            complete: function(results) {
+                const data = results.data;
+                data.forEach(row => {
+                    const latlng = [parseFloat(row.latitude), parseFloat(row.longitude)];
+                    const keyword = row['keywords_en'];
+                    const icon = icons[keyword] || L.AwesomeMarkers.icon({ icon: 'fa-map-marker-alt', markerColor: 'gray', prefix: 'fa' });
+                    const marker = L.marker(latlng, { icon: icon }).addTo(map);
 
-                        if (properties.links && properties.links.length > 0) {
+                    const direction = (lang === 'he' || lang === 'ar') ? 'rtl' : 'ltr';
+                    const textAlign = (lang === 'he' || lang === 'ar') ? 'right' : 'left';
+                    let popupContent = "<div style='direction: " + direction + "; text-align: " + textAlign + ";'><strong>" + row['name_' + lang] + "</strong><br>" +
+                                       row['desc_' + lang] + "<br><br>" +
+                                       "<i>" + row['keywords_' + lang] + "</i><br>";
+
+                    if (row.links) {
+                        const links = row.links.split(';');
+                        if (links.length > 0) {
                             popupContent += "<div class='popup-images'>";
-                            properties.links.forEach(function(link) {
-                                popupContent += "<img src='" + link.href + "' alt=''>";
+                            links.forEach(link => {
+                                popupContent += "<img src='" + link + "' alt=''>";
                             });
                             popupContent += "</div>";
                         }
-
-                        popupContent += "</div>";
-                        layer.bindPopup(popupContent);
                     }
-                }).addTo(map);
-            })
-            .catch(error => console.error('Error loading GeoJSON:', error));
+
+                    popupContent += "</div>";
+                    marker.bindPopup(popupContent);
+                });
+            },
+            error: function(error) {
+                console.error('Error loading CSV:', error);
+            }
+        });
 
         // Update language on selection change
         document.getElementById('language-select').addEventListener('change', function() {
