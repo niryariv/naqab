@@ -116,7 +116,20 @@
             complete: function(results) {
                 const data = results.data;
                 data.forEach(row => {
-                    const latlng = [parseFloat(row.latitude), parseFloat(row.longitude)];
+                    const lat = parseFloat(row.latitude);
+                    const lng = parseFloat(row.longitude);
+
+                    // Skip item if latlng aren't valid numbers or not in the range 29-35, and log the latlng if skipping
+                    if (
+                        isNaN(lat) || isNaN(lng) ||
+                        lat < 29 || lat > 35 ||
+                        lng < 29 || lng > 35
+                    ) {
+                        console.log('Skipping invalid latlng:', row.latitude, row.longitude);
+                        return;
+                    }
+
+                    const latlng = [lat, lng];
                     const keyword = row['keywords_en'];
                     const icon = icons[keyword] || L.AwesomeMarkers.icon({ icon: 'fa-map-marker-alt', markerColor: 'gray', prefix: 'fa' });
                     const marker = L.marker(latlng, { icon: icon }).addTo(map);
